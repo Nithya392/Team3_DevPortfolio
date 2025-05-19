@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Creative Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      background: url('s3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: black;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 40px;
+      font-size: 24px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 10px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    section {
+      margin: 20px auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .project {
+      background: #f5fafd; 
+      border: 2px solid #cce0e5; 
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.3s ease-in-out, background 0.3s;
+      width: 200px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      color: #1e1e1e;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+      background: #e9f7fc; /* lighter on hover */
+      border-color: #a4d4de;
+    }
+
+    input {
+      padding: 8px;
+      border: none;
+      border-radius: 8px;
+      margin: 5px;
+      width: auto;
+      font-family: inherit;
+      font-size: 16px;
+      background: #e6f4ea; /* soft pastel mint */
+      color: #2e2e2e;
+    }
+
+    input:focus {
+      outline: 2px solid #a0d8c2;
+    }
+
+    a {
+      color: #7b7b7b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #2e2e2e;
+      text-decoration: underline;
+    }
+
+    button {
+      background: #FFD700;
+      color: black;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+
+    button:hover {
+      background: #FFC107;
+    }
+  </style>
+ </head>
+
+ <body>
+
+  <header>
+    <h1>Welcome to <input type="text" placeholder="Your Name" />'s Portfolio</h1>
+    <p>Innovating for a better future</p>
+  </header>
+
+  <section>
+    <h2>Profile & Experience</h2>
+    <p>
+      As a passionate <input type="text" placeholder="Your Profession" />, I bring
+      <input type="text" placeholder="Your Expertise" /> to life. Backed by
+      <input type="number" placeholder="Years" style="width:60px;" /> years of hands-on experience, I turn ideas into impactful solutions.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Crafted Works</h2>
+    <div class="projects">
+      <div class="project"><h3>Creation 1</h3><p><input type="text" placeholder="Title of your project" /></p></div>
+      <div class="project"><h3>Creation 2</h3><p><input type="text" placeholder="Title of your project" /></p></div>
+      <div class="project"><h3>Creation 3</h3><p><input type="text" placeholder="Title of your project" /></p></div>
+      <div class="project"><h3>Creation 4</h3><p><input type="text" placeholder="Title of your project" /></p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Let's Connect</h2>
+    <p>Email me at: <input type="email" placeholder="Your Email" /></p>
+  </section>
+
+</body>
+</html>
+I
