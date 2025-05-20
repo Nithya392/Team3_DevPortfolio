@@ -20,14 +20,14 @@ This repository contains HTML and CSS-based templates for the User Info and Proj
 
  > Templates Created
 
-   Layout 1: Clean Professional View
+   Layout 1: Light Theme Portfolio Template
 
 -A light-themed, clean, and elegant layout with soft backgrounds and modern UI elements.
 -Includes sections for user profile, project showcase, and contact details, using hover effects and responsive Flexbox styling.
 
 
 
-   Layout 2: Creative Modern View
+   Layout 2: Dark Theme Portfolio Template
 
 -A light-themed, clean, and elegant layout with soft backgrounds and modern UI elements.
 -Includes sections for user profile, project showcase, and contact details, using hover effects and responsive Flexbox styling.
