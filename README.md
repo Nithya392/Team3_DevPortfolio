@@ -54,7 +54,7 @@ This repository contains HTML and CSS-based templates for the User Info and Proj
 
 Commits Overview
 
-- Total commits:13
+- Total commits:15
 
 > Git merge and conflict resolution was done using `vimdiff` in Git Bash for clear version control.
 
