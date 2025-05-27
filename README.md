@@ -1,3 +1,4 @@
+Dev Portfolio
 Professional Portfolio Templates
 
 [![Status](https://img.shields.io/badge/project-active-brightgreen)]()
@@ -54,7 +55,7 @@ This repository contains HTML and CSS-based templates for the User Info and Proj
 
 Commits Overview
 
-- Total commits:15
+- Total commits:16
 
 > Git merge and conflict resolution was done using `vimdiff` in Git Bash for clear version control.
 
