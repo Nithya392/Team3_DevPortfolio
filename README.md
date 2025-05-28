@@ -89,5 +89,4 @@ Reach out via GitHub :https://github.com/Nithya392 or email at `nithyashree.b@s.
  Acknowledgements
 
 - Inspired by [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-//the project gives freedom to users to make various resumes 
 
